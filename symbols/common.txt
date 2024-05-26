@@ -1,0 +1,30 @@
+buttonsHeld = 0x801b2954;
+buttonsPressed = 0x801b2958;
+
+ClearAll = 0x801058f0;
+CreateTransition = 0x80102e84;
+
+FntPrint = 0x800d2b34;
+FntFlush = 0x800d2810;
+frameCount = 0x8016d298;
+GetRng = 0x80104d68;
+gameMode = 0x801cf840;
+gameMode2 = 0x801cf844;
+
+MemoryCopy = 0x801061dc;
+memcpy = 0x800d65f4;
+
+PacSeek = 0x800fb9c0;
+PlaySound = 0x800fd100;
+PlaySong = 0x800fcb80;
+printf = 0x800d6614;
+puts = 0x800d65b4;
+pacStatus = 0x801c335c;
+songLoading = 0x801cf53c;
+StopSong = 0x800fcd84;
+NewThread = 0x800f7e08;
+NewThread2 = 0x800f8000;
+ThreadSleep = 0x800f7ecc;
+DeleteThread = 0x800f7fc4;
+DeleteThread2 = 0x800f7f58;
+DeleteThreads = 0x800f7fc4;

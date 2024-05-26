@@ -1,0 +1,9 @@
+bgLayers = 0x801d2914;
+
+screenLayout = 0x8016ef34;
+screenLayout2 = 0x8016f334;
+screenLayout3 = 0x8016f734;
+
+rectBuffer = 0x801c73fc;
+
+fadeFlags = 0x801b299a;

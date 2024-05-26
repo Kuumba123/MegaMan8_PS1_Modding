@@ -1,0 +1,2 @@
+AnimeAdvance = 0x801049c0;
+SetAnime = 0x8010488c;
