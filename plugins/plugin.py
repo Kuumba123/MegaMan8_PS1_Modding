@@ -165,7 +165,8 @@ def build(plugin_path: str, game_path: str, game_version: str) -> None:
     "LBA_STAGE0C_PAC",
     "LBA_STAGE0D_PAC",
     "LBA_WILY_PAC",
-    "LBA_W_DEVIL_PAC"]
+    "LBA_W_DEVIL_PAC",
+    "LBA_END1_DA"]
 
 
     Const = {"FileDataAddress": 0x80136f7c}
@@ -190,7 +191,8 @@ def build(plugin_path: str, game_path: str, game_version: str) -> None:
             sector = int(words[2], 16) if '0x' in words[2] else int(words[2])
 
             # Seek to the appropriate position in the binary stream and write the sector
-            struct.pack_into('I', ms, i, sector)
+            if sector > 0:
+                struct.pack_into('I', ms, i, sector)
     
     # Save the result to a file
     with open("MM8_" + mod_name + "/SLUS_004.53", "wb") as file:
