@@ -1,2 +1,58 @@
 AnimeAdvance = 0x801049c0;
+
+CollideCheck = 0x80106214;
+CollideHitBox = 0x80107bf4;
+
+ContactMega = 0x801072a0;
+ContactWeapon = 0x8010757c;
+
+DeleteObject = 0x80105864;
+DeleteObject2 = 0x80105888;
+DeleteObject3 = 0x801058bc;
+
+DisplayObject = 0x80104a68;
+DisplayObject2 = 0x80104aec;
+DisplayObject3 = 0x80104b84;
+
+FindMainObjectSlot = 0x801055e4;
+
+GetMegaDirection = 0x8010910c;
+
+GetMainObject = 0x8010559c;
+GetItemObject = 0x801056f4;
+GetMiscObject = 0x80105770;
+GetEffectObject = 0x801057ec;
+
+MoveObject = 0x80104c34;
+MoveObject2 = 0x80104c58;
+MoveObject3 = 0x80104c9c;
+MoveObject4 = 0x80104ccc;
+
+MoveObjectH = 0x80104d00;
+MoveObjectV = 0x80104d18;
+
+ObjectContactCheck = 0x801076cc;
+
+OnScreenCheck = 0x801047c8;
+
 SetAnime = 0x8010488c;
+SetAnime2 = 0x801048dc;
+
+SetObjectSettings = 0x80109080;
+
+SteroSound = 0x8010544c;
+
+SpawnDrop = 0x80108fd8;
+SpawnExplosion = 0x80108e84;
+SpawnJunk = 0x8012a5fc;
+SpawnJunk2 = 0x8012ae08;
+SpawnSmoke = 0x801091a4;
+
+
+mega = 0x8015e23c;
+
+contactObjectP = 0x8016d404;
+contactWeaponId = 0x80158f5c;
+
+objectTexCords = 0x80170348;
+objectClut = 0x80159f64;

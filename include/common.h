@@ -1,15 +1,15 @@
 #ifndef COMMON_H
 #define COMMON_H
-
-#include <sys/types.h>
+#include <stdint.h>
 #include <stdbool.h>
 #include <libgte.h>
 #include <libgpu.h>
+
 u_long * FntFlush(int id);
 int FntPrint();
 
 void ClearAll();
-void CreateTransition(u_char type);
+void CreateTransition(uint8_t type);
 
 int GetRng();
 
@@ -17,15 +17,18 @@ void MemoryCopy(void *dest,void * src,int length);
 void * memcpy(void * dest,void * src,int byteL);
 
 void PacSeek(int id);
-void PlaySound(ushort id);
-void PlaySong(u_char id);
+
+void PlaySound(uint16_t id);
+void PlaySong(uint8_t id);
 void StopSong();
+void StopSound(uint16_t id);
+
 int printf(char *fmt,...);
 void puts(char * fmt);
 
 void NewThread(int id,void * func);
 void NewThread2(void * func);
-void ThreadSleep(ushort frames);
+void ThreadSleep(uint16_t frames);
 void DeleteThread();
 void DeleteThread2(int id);
 void DeleteThreads();
@@ -33,15 +36,15 @@ void DeleteThreads();
 void LoadCommon();
 
 /*General Vars*/
-extern ushort buttonsHeld;
-extern ushort buttonsPressed;
+extern uint16_t buttonsHeld;
+extern uint16_t buttonsPressed;
 
-extern u_char gameMode;
-extern u_char gameMode2;
-extern uint frameCount;
+extern uint8_t gameMode;
+extern uint8_t gameMode2;
+extern uint32_t frameCount;
 
 extern bool songLoading;
-extern u_char pacStatus;
+extern uint8_t pacStatus;
 
 
 enum PadButtons{

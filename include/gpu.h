@@ -1,5 +1,6 @@
 #ifndef GPU_H
 #define GPU_H
+#include <stdint.h>
 #include <sys/types.h>
 #include <libgte.h>
 #include <libgpu.h>
@@ -38,7 +39,7 @@ void SetLineF4(LINE_F4 * p);
 void SetLineG4(LINE_G4 * p);
 void SetDrawTPage(DR_TPAGE *p,int dfe,int dtd,int tpage);
 
-extern u_char buffer;
+extern uint8_t buffer;
 typedef struct{
     DRAWENV draw;
     DISPENV disp;

@@ -22,6 +22,8 @@ puts = 0x800d65b4;
 pacStatus = 0x801c335c;
 songLoading = 0x801cf53c;
 StopSong = 0x800fcd84;
+StopSound = 0x800fce30;
+
 NewThread = 0x800f7e08;
 NewThread2 = 0x800f8000;
 ThreadSleep = 0x800f7ecc;
