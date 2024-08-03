@@ -4,6 +4,7 @@ buttonsPressed = 0x801b2958;
 ClearAll = 0x801058f0;
 CreateTransition = 0x80102e84;
 
+FileCollected = 0x800fc1e0;
 FntPrint = 0x800d2b34;
 FntFlush = 0x800d2810;
 frameCount = 0x8016d298;

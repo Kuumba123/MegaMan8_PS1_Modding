@@ -2,6 +2,7 @@
 #define COMMON_H
 #include <stdint.h>
 #include <stdbool.h>
+#include <sys/types.h>
 #include <libgte.h>
 #include <libgpu.h>
 
@@ -12,6 +13,8 @@ void ClearAll();
 void CreateTransition(uint8_t type);
 
 int GetRng();
+
+bool FileCollected();
 
 void MemoryCopy(void *dest,void * src,int length);
 void * memcpy(void * dest,void * src,int byteL);
